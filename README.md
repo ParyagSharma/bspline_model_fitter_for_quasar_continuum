@@ -10,7 +10,7 @@ The code operates on a straightforward logic to determine breakpoints for fittin
    - For regions with absorption lines, the weights are comparatively lower, ensuring breakpoints are more spaced out.
 
 2. **Normalization**:
-   - The weight array is normalized to ensure it sums up to 1, making the subsequent steps easier to manage and interpret.
+   - The weight array is normalized deciding the distance of breakpoints.
 
 3. **Cumulative Sum Array**:
    - A cumulative sum of the normalized weight array is calculated. This cumulative sum array helps in identifying where significant changes in the flux occur, which is critical for placing breakpoints.
