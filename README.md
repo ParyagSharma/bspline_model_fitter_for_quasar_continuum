@@ -1,6 +1,6 @@
 # iterative_bspline_model_fitter_for_quasar_continuum
 The iterative B-spline model fitter for quasar continuum is a Python code adapted from the SDSS BOSS reduction pipeline originally written in IDL. The code leverages `pyidl` and `pyidlutils` to translate the IDL code into Python, with necessary adjustments to address differences in how numpy and IDL handle floating-point numbers. Specifically, modifications were made to eliminate any breakpoints with a difference of only one index.
-
+If you have any questions or need any help feel free to drop a e-mail at - panditparyag@gmail.com
 ## Logic Behind the Code
 
 The code operates on a straightforward logic to determine breakpoints for fitting a B-spline model to the quasar continuum. Here’s a detailed explanation of the process:
